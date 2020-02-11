@@ -16,5 +16,6 @@ void DisplayBoard(int arr_){
 }
 
 int main(){
+    //CreateBoard();
     CreateBoard();
 }
