@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> CreateBoard(){
-    std::vector<int> board;
+std::vector<char> CreateBoard(){
+    std::vector<char> board;
     for(int i=0;i<9;i++){
-        board.push_back(0);
+        board.push_back(' ');
     }
     return board;
 }
 
-void DisplayBoard(std::vector<int> board){
+void DisplayBoard(std::vector<char> board){
     for (int i = 0; i < board.size(); ++i){
         std::cout << board[i]<<"|";
         if(i%3==2){
@@ -19,5 +19,6 @@ void DisplayBoard(std::vector<int> board){
 }
 
 int main(){
-    DisplayBoard(CreateBoard());
+    std::vector<char> board=CreateBoard();
+    DisplayBoard(board);
 }
