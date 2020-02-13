@@ -1,0 +1,115 @@
+ | | |
+------
+ | | |
+------
+ | | |
+------
+current turn:x
+Which row?(1-3)
+1
+Which col?(1-3)
+1
+next
+x| | |
+------
+ | | |
+------
+ | | |
+------
+current turn:o
+Which row?(1-3)
+2
+Which col?(1-3)
+2
+next
+x| | |
+------
+ |o| |
+------
+ | | |
+------
+current turn:x
+Which row?(1-3)
+3
+Which col?(1-3)
+1
+next
+x| | |
+------
+ |o| |
+------
+x| | |
+------
+current turn:o
+Which row?(1-3)
+1
+Which col?(1-3)
+2
+next
+x|o| |
+------
+ |o| |
+------
+x| | |
+------
+current turn:x
+Which row?(1-3)
+3
+Which col?(1-3)
+2
+next
+x|o| |
+------
+ |o| |
+------
+x|x| |
+------
+current turn:o
+Which row?(1-3)
+3
+Which col?(1-3)
+3
+next
+x|o| |
+------
+ |o| |
+------
+x|x|o|
+------
+current turn:x
+Which row?(1-3)
+1
+Which col?(1-3)
+3
+next
+x|o|x|
+------
+ |o| |
+------
+x|x|o|
+------
+current turn:o
+Which row?(1-3)
+2
+Which col?(1-3)
+1
+next
+x|o|x|
+------
+o|o| |
+------
+x|x|o|
+------
+current turn:x
+Which row?(1-3)
+2
+Which col?(1-3)
+3
+next
+x|o|x|
+------
+o|o|x|
+------
+x|x|o|
+------
+Program ended with exit code: 0
