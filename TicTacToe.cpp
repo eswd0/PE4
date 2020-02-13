@@ -50,10 +50,16 @@ int GetPlayerChoice(){
 
 int main(){
     std::vector<char> board = CreateBoard();
-
+    
+    std::string str="xo";
     DisplayBoard(board);
-    //test
-    PlaceMarker(1,'x', board);
-    std::cout<<"next"<<std::endl;
-    DisplayBoard(board);
+    
+    
+    for(int i=0;i<9;i++){
+        std::cout<<"current turn:"<<str[i%2]<<std::endl;
+        int choice = GetPlayerChoice();
+        PlaceMarker(choice,str[i%2], board);
+        std::cout<<"next"<<std::endl;
+        DisplayBoard(board);
+    }
 }
