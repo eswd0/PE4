@@ -18,6 +18,20 @@ void DisplayBoard(std::vector<char> board){
     }
 }
 
+int GetPlayerChoice(){
+    int row;
+    int col;
+    
+    std::cout<<"Which row?(1-3)"<<std::endl;
+    std::cin>>row;
+    
+    std::cout<<"Which col?(1-3)"<<std::endl;
+    std::cin>>col;
+    return (row-1)*3+col-1;
+}
+
+
+
 int main(){
     std::vector<char> board=CreateBoard();
     DisplayBoard(board);
