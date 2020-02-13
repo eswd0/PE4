@@ -18,7 +18,21 @@ void DisplayBoard(std::vector<char> board){
     }
 }
 
+/**
+    @param a location to play
+    @param a marker to place their
+    @param a board accordingly to update
+*/
+void PlaceMarker(int loc, char mark, std::vector<char> &v){
+    v[loc] = mark;
+}
+
 int main(){
-    std::vector<char> board=CreateBoard();
+    std::vector<char> board = CreateBoard();
+
+    DisplayBoard(board);
+    //test
+    PlaceMarker(1,'x', board);
+    std::cout<<"next"<<std::endl;
     DisplayBoard(board);
 }
