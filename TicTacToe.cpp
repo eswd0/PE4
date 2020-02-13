@@ -18,9 +18,13 @@ void DisplayBoard(std::vector<char> board){
     }
 }
 
+
+
 int GetPlayerChoice(){
     int row;
     int col;
+    
+    
     
     std::cout<<"Which row?(1-3)"<<std::endl;
     std::cin>>row;
